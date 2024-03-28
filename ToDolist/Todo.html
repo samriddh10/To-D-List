@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <style>
+            body{
+                background-color: black;
+                margin-left: 40px;
+            }
+            p{
+                color: aliceblue;
+            }
+
+
+            .add{
+                background-color: rgb(95, 158, 253);
+                color: white;
+                border-radius: 2px;
+                border-width: 0px;
+                padding: 3px 8px;
+                height: 35px;
+                
+            }
+            #deleteButton{
+                background-color: rgb(255, 0, 0);
+                color: white;
+                border-radius: 2px;
+                border-width: 0px;
+                padding: 3px 8px;
+            }
+            #doneButton{
+                background-color: rgb(26, 208, 47);
+                color: white;
+                border-radius: 2px;
+                border-width: 0px;
+                padding: 3px 8px;
+
+            }
+            #list{
+                width: 300px;
+            }
+            .list-item{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+            .operation{
+                width: 160px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #newTask{
+                width: 300px;
+                height: 30px;
+                margin-bottom: 0px;
+                margin-top: 8px;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 style="color:aliceblue;">To Do List</h1>
+        <input id="newTask" placeholder="ENTER YOUR TASK">
+        <button class = "add" id="btnAdd">ADD TASK</button>
+        <p>TASK LIST</p> 
+        <ol id="list" >
+            
+        </ol>
+    
+
+
+        
+        
+
+        <script src="todo.js"></script>
+    </body>
+</html> 
